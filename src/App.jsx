@@ -2,6 +2,8 @@ import Navbar from './components/Navbar'
 import Hero3D from './components/Hero3D'
 import Features from './components/Features'
 import Products from './components/Products'
+import Industries from './components/Industries'
+import About from './components/About'
 import CTA from './components/CTA'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Hero3D />
         <Products />
         <Features />
+        <Industries />
+        <About />
         <CTA />
       </main>
 
@@ -25,6 +29,7 @@ function App() {
           <div className="flex items-center gap-6 text-sm">
             <a href="#about" className="hover:text-white transition">About</a>
             <a href="#services" className="hover:text-white transition">Services</a>
+            <a href="#industries" className="hover:text-white transition">Industries</a>
             <a href="#contact" className="hover:text-white transition">Contact</a>
           </div>
         </div>
